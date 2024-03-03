@@ -36,7 +36,7 @@ This project focuses on extracting, transforming, and loading (ETL) COVID-19 rel
 ## Project Structure
 
 ### Code Files
-- **`covid_data_etl.py`:** Python script for ETL process.
+- **`covid_s3_rds.ipynb`:** Python script for ETL process.
 - **`proj.config`:** Configuration file for AWS credentials.
 
 ### Output Files
@@ -46,7 +46,7 @@ This project focuses on extracting, transforming, and loading (ETL) COVID-19 rel
 - **`output/dimRegion.csv`:** Dimension table data.
 
 ## Running the ETL Process
-1. Execute `covid_data_etl.py` script: `python covid_data_etl.py`
+1. Execute `covid_s3_rds.ipynb`
 2. Check S3 bucket for the output files.
 3. Verify data in Redshift tables.
 
